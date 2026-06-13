@@ -1,2 +1,2 @@
-# venkateshwaran21uit022
-Java Program Assignments 
+# Web Technology Assigments 
+Here we learn HTML , CSS , JavaScript 
