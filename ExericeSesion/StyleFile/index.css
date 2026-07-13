@@ -1,14 +1,14 @@
 /*
     Css - Selector 
-    - tag selector(0,0,1)
-    - Id  selector(1,0,0)unique one
+    - Tag selector(0,0,1)
+    - Id selector(1,0,0)unique one
     - class Selector(0,1,0) !unique one
     - Universal Selector(0,0,0)
     - Grouping Selector(0,0,0)
 */
-*{
-    /* font-family: 'Times New Roman', Times, serif; */
-background-color: whitesmoke;
+/* *{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
 }
 h1{
     color: green;
@@ -29,4 +29,4 @@ p{
 
 h3 ,p{
     font-family: 'Times New Roman', Times, serif;
-} 
+}  */
