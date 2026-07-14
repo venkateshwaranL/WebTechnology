@@ -52,3 +52,16 @@ h3 ,p{
     background-position: center;
     background-attachment: fixed; 
 } */
+ /*
+    Border style
+ */
+ /* h1{
+    border-style: dashed double;
+          top&bottom  right&left
+    border-width: medium;
+    border-color: #5ABF73 #5AA6BF #BF5AA6 #BF735A;
+                    top      right     bottom     left 
+    border-radius: 15px 0px 15px 0px;
+        top      right     bottom     left 
+    
+ } */
