@@ -67,12 +67,31 @@ h3 ,p{
  } */
 
     /* Margin & Padding */
-h1{
+/* h1{
     
     border: 2px solid red;
     margin:50px 20px 10px;
+      top left&right  bottom
     width: 450px;
-    /*  top left&right  bottom*/
     padding: 50px;
-    /*We have padding top,right,bottom and left same for margin also */
+    We have padding top,right,bottom and left same for margin also 
+} */
+
+/*
+    Higth&Width
+*/
+
+/* h1{
+    border: 2px solid;
+    width: initial;
+    height: 800px;
+    max-height: 150px;
+    min-width: 800px;
 }
+div{
+    margin: auto;
+    width: 200px;
+    border: 2px solid;
+}
+    we have properties are width,min-width,max-width and height,min-height,max-height.
+    values are inherit,initial. */
