@@ -57,12 +57,12 @@ h3 ,p{
  */
  /* h1{
     border-style: dashed double;
-          top&bottom  right&left
+          top&bottom  right&left***
     border-width: medium;
     border-color: #5ABF73 #5AA6BF #BF5AA6 #BF735A;
-                    top      right     bottom     left 
+                    top      right     bottom     left ***
     border-radius: 15px 0px 15px 0px;
-        left   top  right  bottom
+        top-left   top-right  bottom-right   bottom-left***
     
  } */
 
@@ -71,7 +71,7 @@ h3 ,p{
     
     border: 2px solid red;
     margin:50px 20px 10px;
-      top left&right  bottom
+      top left&right  bottom***
     width: 450px;
     padding: 50px;
     We have padding top,right,bottom and left same for margin also 
