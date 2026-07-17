@@ -105,6 +105,7 @@ p{
     text-align: justify;
     color: white;
     background-color: red;
+    text-transform:uppercase;
 }
 .dec{
     text-decoration-line:line-through;
@@ -112,5 +113,16 @@ p{
     text-decoration-style:solid;
     color: black;
     background-color: white;
-    
+    text-transform: capitalize;
+    text-shadow: 2px 2px 2px red;
+    /* x-axics  y-axics  (blur)  color */
+    line-height: 50px;
+    word-spacing: 1px;     
+}
+
+.task{
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    text-shadow: 2px 3px 2px red;
 }
