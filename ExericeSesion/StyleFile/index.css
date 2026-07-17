@@ -101,3 +101,16 @@ div{
 h1{
     border: 2px solid;
 }
+p{
+    text-align: justify;
+    color: white;
+    background-color: red;
+}
+.dec{
+    text-decoration-line:line-through;
+    text-decoration-color: brown;
+    text-decoration-style:solid;
+    color: black;
+    background-color: white;
+    
+}
