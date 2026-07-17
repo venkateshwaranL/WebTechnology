@@ -95,3 +95,9 @@ div{
 }
     we have properties are width,min-width,max-width and height,min-height,max-height.
     values are inherit,initial. */
+/*
+    Text Formatting
+*/
+h1{
+    border: 2px solid;
+}
