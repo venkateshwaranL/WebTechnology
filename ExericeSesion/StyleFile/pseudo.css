@@ -1,8 +1,9 @@
-p::first-letter{
-    color: red;
-    font-size: larger;
+p::before{
+    content: "! ";
 }
-p::first-line{
-    color: brown;
-    font-size: small;
+p::after{
+    content: " ~";
+}
+span::after{
+    content: "/-";
 }
