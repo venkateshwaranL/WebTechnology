@@ -123,6 +123,9 @@ p{
 .task{
     color: black;
     background-color: white;
-    text-decoration: underline;
-    text-shadow: 2px 3px 2px red;
+    font-family: sans-serif;
+    text-transform: none;
+    font-variant: small-caps;
+    font-size: 1em;
+    /* 1 em = 16 px  */
 }
