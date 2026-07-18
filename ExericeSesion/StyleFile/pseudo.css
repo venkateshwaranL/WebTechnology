@@ -1,6 +1,4 @@
-p::first-line{
+p::first-letter{
     color: red;
-}
-span::first-line{
-    color: blue;
+    font-size: larger;
 }
