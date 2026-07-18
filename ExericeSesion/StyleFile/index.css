@@ -98,7 +98,7 @@ div{
 /*
     Text Formatting
 */
-h1{
+/* h1{
     border: 2px solid;
 }
 p{
@@ -115,7 +115,7 @@ p{
     background-color: white;
     text-transform: capitalize;
     text-shadow: 2px 2px 2px red;
-    /* x-axics  y-axics  (blur)  color */
+    /* x-axics  y-axics  (blur)  color 
     line-height: 50px;
     word-spacing: 1px;     
 }
@@ -127,5 +127,24 @@ p{
     text-transform: none;
     font-variant: small-caps;
     font-size: 1em;
-    /* 1 em = 16 px  */
+     1 em = 16 px  
+} */
+
+table{
+    width: 500px;
+    height: 200px;
+}
+table thead{
+    height: 35px;
+}
+table thead tr {
+    text-align: center;
+}
+table,td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: aqua;
+    color: red;
 }
