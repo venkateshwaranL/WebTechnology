@@ -1,0 +1,6 @@
+p::first-line{
+    color: red;
+}
+span::first-line{
+    color: blue;
+}
