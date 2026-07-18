@@ -1,5 +1,60 @@
-*{
+/* *{
+    background-color: whitesmoke;
+}
+h1{
+    font-style: oblique;
+    text-align: center;
+}
+.para{
+    background-color: chartreuse;
+    padding: 10px;
+}
+#head{
+    text-align: center;
+    padding: 5px;
+    margin: 0px 350px 0px 350px;
+    border: 2px solid red;
+    width: 10%;
+}
+
+h1.para{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+li.list{
+    color: blue;
+    list-style: none;
+}
+h3,p{
+    background-color: cornflowerblue;
+    color: black;
+}
+div p {
+    background-color: whitesmoke;
+    color: brown;
+}
+div p b{
     color: red;
-    margin: 0px;
-    padding: 0px;
+} */
+
+div > p{
+    background-color: chartreuse;
+    color: red;
+}
+
+
+
+div > p + section{
+    background-color: black;
+    color: white;
+}
+
+/* div p {
+    background-color: blue;
+    color: white;
+} */
+
+div > p ~ section {
+    text-decoration: line-through;
 }
