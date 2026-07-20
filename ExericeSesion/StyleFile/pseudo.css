@@ -1,9 +1,5 @@
-p::before{
-    content: "! ";
-}
-p::after{
-    content: " ~";
-}
-span::after{
-    content: "/-";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 0px;
 }
