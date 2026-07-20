@@ -129,6 +129,20 @@ p{
     font-size: 1em;
      1 em = 16 px  
 } */
+.blue{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+}
+.red{
+    background-color: red;
+    width: 10%;
+    height: 50px;
+    position: relative;
+    bottom: 125px;
+    left: 100px;
+
+}
 
 table{
     width: 500px;
