@@ -133,15 +133,14 @@ p{
     background-color: blue;
     width: 30%;
     height: 200px;
+    position: static;
 }
 .red{
     background-color: red;
     width: 10%;
     height: 50px;
-    position: relative;
-    bottom: 125px;
-    left: 100px;
-
+    position: sticky;
+    top: 0px;
 }
 
 table{
