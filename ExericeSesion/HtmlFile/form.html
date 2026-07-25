@@ -35,6 +35,15 @@
         input[type="submit"]:hover{
             background-color: #45a049;
         }
+        input[id="search"]{
+            background-color: white;
+            font-size: 16px;
+            background-image: url('/ImageFolder/search.svg');
+            background-repeat: no-repeat;
+            float: right;
+            padding: 12px 20px 12px 40px;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
@@ -44,6 +53,8 @@
         <input type="text" id="fname" name="firstname" placeholder="Your Name..">
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+        <label for="search">Search</label>
+        <input type="text" id="search" name="search" placeholder="Search..">
         <label for="country">Country</label>
         <select name="country" id="country">
             <option value="india">India</option>
