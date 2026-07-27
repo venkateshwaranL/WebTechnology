@@ -39,10 +39,14 @@
             background-color: white;
             font-size: 16px;
             background-image: url('/ImageFolder/search.svg');
+            max-height: 1px;
             background-repeat: no-repeat;
             float: right;
-            padding: 12px 20px 12px 40px;
+            padding: 12px 20px 12px 30px;
             box-sizing: border-box;
+        }
+        input[type="checkbox"]{
+            background-color: red;
         }
     </style>
 </head>
@@ -61,6 +65,7 @@
             <option value="us">US</option>
             <option value="uk">UK</option>
         </select>
+        <input type="checkbox" name="name" id="" ><label for="name">Venkatesh</label>
         <input type="submit" name="submit">
     </form>
 </body>
