@@ -1,0 +1,14 @@
+* {
+  border: solid red 5px;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.box {
+  background-color: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}

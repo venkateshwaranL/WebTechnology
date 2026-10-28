@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.hidden-el {
+  visibility: hidden;
+}
+/* .none-el {
+    display: none;
+  } */

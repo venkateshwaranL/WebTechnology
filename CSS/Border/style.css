@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.box {
+  max-width: 400px;
+  margin: 40px;
+  padding: 20px;
+  /* border: 2px solid black; */
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+  /* border-radius: 0px 10px 20px 40px; */
+}
+.box-1 {
+  border: none;
+  border-top: solid red 2px;
+  border-bottom: solid blue 2px;
+}
+.box-2 {
+  /* border-radius: 20px; */
+  border-top-left-radius: 10px;
+  border-bottom-color: black;
+}

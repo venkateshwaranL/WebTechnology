@@ -1,0 +1,35 @@
+/* Type Selector  */
+body {
+  font-family: Tahoma, serif;
+}
+h2 {
+  color: red;
+  font-size: large;
+}
+a {
+  color: chocolate;
+  text-decoration: none;
+}
+/* Class Selector */
+.sporty {
+  color: red;
+}
+.casual {
+  color: blue;
+}
+.formal {
+  color: brown;
+}
+/* Id Selector */
+#box-1 {
+  max-width: 300px;
+  color: blueviolet;
+  margin: 40px;
+  padding: 40px;
+  border: 2px solid red;
+}
+
+#box-1 p {
+  background-color: cornflowerblue;
+  color: blueviolet;
+}

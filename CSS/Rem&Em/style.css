@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-size: 10px; */
+}
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  /* font-size: 10px; */
+}
+/* h1 {
+  font-size: 2rem;
+}
+p {
+  font-size: 2rem;
+} */

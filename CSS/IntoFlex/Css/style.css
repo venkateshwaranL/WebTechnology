@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.flex-container {
+  display: flex;
+  background: burlywood;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+  /* row-gap: 20px; */
+  column-gap: 20px;
+}
+.flex-item {
+  height: 200px;
+  width: 200px;
+  background: coral;
+  border: 1px solid black;
+}

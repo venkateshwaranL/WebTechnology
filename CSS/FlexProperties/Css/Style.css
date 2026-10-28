@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.flex-container {
+  display: flex;
+  background: lightblue;
+  width: 50%;
+}
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+}
+.item-2 {
+  flex-grow: 1;
+}

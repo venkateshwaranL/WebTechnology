@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+#box-4 {
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+}
