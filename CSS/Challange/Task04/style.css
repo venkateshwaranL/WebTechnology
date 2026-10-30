@@ -3,14 +3,55 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, sans-serif;
 }
-a {
-  text-decoration: none;
-  color: black;
+nav {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
 }
 ul {
-  list-style: none;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  display: inline;
+  padding-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Form Style */
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
