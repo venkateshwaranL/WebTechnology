@@ -6,3 +6,42 @@
 body {
   font-family: Arial, sans-serif;
 }
+/* @media screen and (max-width: 1200px) {
+  .widescreen {
+    background-color: coral;
+  }
+  @media (max-width: 992px) {
+    .normal {
+      background-color: lightblue;
+    }
+  }
+  @media (max-width: 768px) {
+    .tablet {
+      background-color: lightgreen;
+      border: 1px solid black;
+    }
+  }
+  @media (max-width: 576px) {
+    .smartphone {
+      background-color: lightgrey;
+      background-image: url(placidplace-dog-15422_512.gif);
+      height: 300px;
+    }
+  }
+  @media (orientation: landscape) {
+    .landscape {
+      background-color: chocolate;
+    }
+  }
+  @media (max-height: 400px) {
+    .height {
+      background-color: blue;
+    }
+  }
+}  */
+
+@media (min-width: 770px) and (max-width: 990px) {
+  body {
+    background-color: lightcoral;
+  }
+}
