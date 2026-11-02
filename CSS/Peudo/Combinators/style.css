@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 2;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 2rem;
+}
+/* .container > p {
+  font-weight: bold;
+  background-color: brown;
+} */
+/* .container > ul {
+  background-color: lightblue;
+} */
+/* .container > ul > li > ul {
+  background-color: gold;
+} */
+/* .container > a {
+  color: red;
+} */
+/* .container h1 + a {
+  color: green;
+  background-color: yellow;
+} */
+.container h1 ~ a {
+  color: green;
+  background-color: yellowgreen;
+}
