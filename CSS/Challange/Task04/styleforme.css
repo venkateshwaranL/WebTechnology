@@ -37,6 +37,13 @@ label {
   display: block;
   font-weight: bold;
 }
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
 .form-group {
   margin-bottom: 20px;
 }
@@ -46,4 +53,31 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+}
+/* input[type="email"] {
+    border-color: green;
+  }
+  input[name="name"] {
+    border-color: blue;
+  }
+  input[type="text"][id="name"] {
+    border-color: aqua;
+  }
+  input[required=""] {
+    border-color: red;
+  } */
+input[type="password"][maxlength="8"] {
+  border-color: crimson;
+}
+button[type="submit"] {
+  background-color: darkgoldenrod;
+}
+a[href^="#"] {
+  color: red;
+}
+/* a[href$=".ai"] {
+  color: darkgreen;
+} */
+a[href*="string"] {
+  color: hotpink;
 }
