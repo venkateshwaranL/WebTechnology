@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "sideBar content content"
+    "aside1 aside2 aside3"
+    "footer footer footer";
+  grid-template-rows: 50px 200px 1fr 200px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+nav,
+header,
+aside,
+main,
+footer {
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+}
+.aside {
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+}
+nav {
+  grid-area: nav;
+}
+header {
+  grid-area: header;
+}
+aside {
+  grid-area: sideBar;
+}
+main {
+  grid-area: content;
+}
+.aside-1 {
+  grid-area: aside1;
+}
+.aside-2 {
+  grid-area: aside2;
+}
+.aside-3 {
+  grid-area: aside3;
+}
+footer {
+  grid-area: footer;
+}
