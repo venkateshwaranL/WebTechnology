@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav    main    aside"
+    "footer footer footer";
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 100px 1fr 50px;
+}
+header,
+main,
+nav,
+aside,
+footer {
+  background-color: orangered;
+  color: white;
+  padding: 20px;
+  border: 2px solid white;
+}
+header {
+  display: grid;
+  grid-area: header;
+  align-items: center;
+  justify-items: center;
+}
+nav {
+  grid-area: nav;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+main {
+  grid-area: main;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+aside {
+  grid-area: aside;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+footer {
+  grid-area: footer;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
